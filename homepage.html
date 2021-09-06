@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rufus - Create bootable USB drive</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+    <div class="select">
+      <label for="select">Change language:</label><br>
+      <select class="" name="select">
+        <option value="english"><small>IE/GB/US</small>English (International)</option>
+        <option value="albanian"><sub>AL</sub> Albanian (Shqip)</option>
+        <option value="arabic"><sub>SA</sub> Arabic ()</option>
+        <option value="azerbaijani"><sub>AZ</sub> Azerbaijani (Azerbaycan)</option>
+        <option value="catala">Catalan (catala)</option>
+        <option value="danish"><sub>DK</sub> Danish (Dansk)</option>
+        <option value="dutch"><sub>NL</sub> Dutch (Nederlands)</option>
+        <option value="estonian"><sub>EE</sub> Estonian (eesti keel)</option>
+        <option value="finnish"><sub>FI</sub> Finnish (Suomi)</option>
+        <option value="french"><sub>FR</sub> French (Francais)</option>
+
+      </select>
+    </div>
+
+    <a href="https://www.grammarly.com/?utm_source=gdn&utm_medium=cpc&utm_campaign=F3&utm_phase=other&utm_content=bmd687-html"><img src="https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/1759580395693150335/528-728x90-e/528-728X90-E_update-min.png" alt=""></a>
+    <p><img src="https://rufus.ie/pics/rufus-128.png" alt="img not found">
+    <span><a class="p1" href="https://github.com/pbatard/rufus">Rufus</a></span></p>
+    <h3>Create bootable USB drives the easy way</h3>
+    <img src="https://rufus.ie/pics/rufus_en.png" alt="img not found">
+    <p>Rufus is a utility that helps format and create bootable USB Flash drives, <br> such as USB keys/pendrives, memory sticks, ect</p>
+    <p></p>
+    <p></p>
+    <p>It can be especially helpful for cases where:</p>
+    <ul>
+      <li>you need to create USB installation media from bootable ISOs (Windows, Linux, UEFI, etc)</li>
+      <li>you need to work on a sustem that doesn't have an OS installed</li>
+      <li>you need to flash a BIOS or other firmware from DOS</li>
+      <li>you want to run a low-level utility</li>
+    </ul>
+    <p></p>
+    <p>Despite its small size, Rufus provides everything you need!</p>
+    <p>Oh, and Rufus is fast. For instance it's about twice as fast as
+    <a href="http://unetbootin.github.io/">UNetbootin, </a>
+    <a href="https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Universal USB Installer </a> or <br>
+    <a href="https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool">Windows 7 USB download tool,</a>
+     on the creation of a Windows 7 USB installation drive from an IOS.
+    It is <br> also marginally faster on the creation of Linux bootable USB fron ISOs.
+    <a href="#ref1"></a><sup>(1)</sup></p>
+    <p>A non exhaustive list of Rufus supported ISOs is also provided at the bottom of the image.<a href="#ref2"><sup>(2)</sup></a></p>
+    <h2 class="download"><strong>Download</strong></h2>
+    <p><strong>Last updated 2021.04.30:</strong></p>
+    <ul>
+      <li><a href="https://github.com/pbatard/rufus/releases/download/v3.14/rufus-3.14.exe"><span>Rufus 3.14</span> </a>(1.1MB)</li>
+      <li><a href="https://github.com/pbatard/rufus/releases/download/v3.14/rufus-3.14p.exe">Rufus 3.14 Portable </a>(1.1MB)</li>
+      <li><a href="https://github.com/pbatard/rufus/releases/download/v3.14/rufus-3.14p.exe">Other versions (GitHub)</a></li>
+      <li><a href="https://www.fosshub.com/Rufus.html">Other versions (FossHub)</a></li>
+    </ul>
+    <p><em>Supported Languages:</em></p>
+    <p></p>
+    <p>Bahasa Indonesia	, 	Bahasa Malaysia	, 	Български	, 	Čeština	, 	Dansk	, 	Deutsch	, 	Ελληνικά	, <br>
+      English	, 	Español	, 	Français	, 	Hrvatski	, 	Italiano	, 	Latviešu	, 	Lietuvių	, 	Magyar	, 	Nederlands	, 	Norsk	, <br>
+      Polski	, 	Português	, 	Português do Brasil	, 	Русский	, 	Română	, 	Slovensky	, 	Slovenščina	, 	Srpski	, <br>
+      Suomi	, 	Svenska	, 	Tiếng Việt	, 	Türkçe	, 	Українська	, 	简体中文	, 	正體中文	, 	日本語	, 	한국어	, 	ไทย	, <br>
+      עברית	, 	العربية	, 	پارسی	.
+    </p>
+    <p><strong>System Requirements:</strong></p>
+    <p>Windows 7 or later, 32 or 64 bit doesn't matter. Once downloaded, the application is ready to use.</p>
+    <p></p>
+    <p>I  will take this opportunity to express my gratitude to the translators who made it possible for Rufus, as <br> well as this webpage, to be translated in various languages. If you find that you can use Rufus in your <br> own language, you should really thank them!</p>
+
+    <h2>Usage</h2>
+    <p>Download the executable and run it – no installation is necessary.</p>
+    <p></p>
+    <p>The executable is digitally signed and the signature should state:</p>
+    <p></p>
+    <ul>
+      <li>"Akeo Consulting" (v1.3.0 or later)</li>
+      <li>"Pete Batard - Open Source Developer" (v1.2.0 or earlier)</li>
+    </ul>
+    <p><strong>Notes on DOS support:</strong></p>
+    <p></p>
+    <p>If you create a DOS bootable drive and use a non-US keyboard, Rufus will attempt to select a <br> keyboard layout according to the locale of your system. In that case, FreeDOS, which is the default <br> selection, is recommended over MS-DOS, as it supports more keyboard layouts.</p>
+    <p></p>
+    <p><strong>Notes on ISO Support:</strong></p>
+    <p></p>
+    <p>All versions of Rufus since v1.1.0 allow the creation of a bootable USB from an ISO image (.iso).</p>
+    <p></p>
+    <p>Creating an ISO image from a physical disc or from a set of files is very easy to do however, through <br> the use of a CD burning application, such as the freely available <a href="http://infrarecorder.org/"> InfraRecorder </a> "or" <a href="http://cdburnerxp.se/"> CDBurnerXP.</a></p>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    <p></p>
+    <p>A Rufus FAQ is available <a href="https://github.com/pbatard/rufus/wiki/FAQ">HERE.</a></p>
+    <p></p>
+    <p>To provide feedback, report a bug or request an enhancement, please use the github <a href="https://github.com/pbatard/rufus/issues"> issue tracker.</a> Or you can <a href="pete@akeo.ie"></a>send an e-mail.</p>
+    <p></p>
+    <h2>License</h2>
+    <p></p>
+    <p> <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License (GPL) version 3 </a> or later.</p>
+    <p>You are free to distribute, modify or even sell the software, insofar as you respect the GPLv3 license.</p>
+    <p></p>
+    <p>Rufus is produced in a 100% transparent manner, from its <a href="https://github.com/pbatard/rufus"> public source</a> , using a <a href="http://mingw-w64.org/"> MinGW32</a> environment.</p>
+    <p></p>
+    <h2>Changelog</h2>
+    <p></p>
+    <ul>
+      <li>Version 3.14 (2021.04.30)</li>
+      <ul>
+        <li>Improve DD write speed (uncompressed images only)</li>
+        <li>Improve checksum computation speed</li>
+        <li>Improve network connectivity detection</li>
+        <li>Only prompt for additional GRUB/Syslinux downloads when not writing in DD mode</li>
+        <li>Fix potential "loss" of disk after writing Ubuntu 20.10 in DD mode</li>
+        <li>Fix GRUB compatibility issue with Ubuntu 21.04</li>
+        <li>Fix Rufus MBR not being selected by default for Windows ISOs</li>
+        <li>Fix drag and drop being enabled during drive creation</li>
+        <li>Add more "exceptions" for forced DD image writing</li>
+      </ul>
+      <li><a href="https://github.com/pbatard/rufus/blob/master/ChangeLog.txt">
+        Other versions</a></li>
+    </ul>
+    <p></p>
+    <h2>Source Code</h2>
+    <ul class="sourcecode">
+      <li><a href="https://github.com/pbatard/rufus/archive/v3.14.zip">Rufus 3.14 </a>(3.5 MB)</li>
+      <li>Alternatively, you can clone the <a href="http://git-scm.com/">git </a> repository using:<br /><br>
+      <code>$ git clone git://github.com/pbatard/rufus</code></li>
+      <br> <li>For more information, see the <a href="https://github.com/pbatard/rufus"> github project</a>.</li>
+    </ul>
+    <p></p>
+    <p>If you are a developer, you are very much encouraged to tinker with Rufus and submit patches.</p>
+    <p></p>
+    <h2>Donations</h2>
+    <p></p>
+    <p>Since I'm getting asked about this on regular basis, there is no donation button on this page.</p>
+    <p>The main reason is that I feel that the donation system doesn't actually help software development and worse, can be guilt-inducing for users who choose not to donate.</p>
+    <p></p>
+    <p>Instead, I think that "<a href="https://en.wiktionary.org/wiki/m%C3%A9c%C3%A9nat">mécénat</a>"; or developer patronage,
+     from companies which benefit most from a healthy <a href="http://en.wikipedia.org/wiki/Free_and_open_source_software">FLOSS</a> ecosystem,
+     is what we should be aiming for. This is because,
+     unless they are backed by a company, developers who want to
+     provide quality Open Source software cannot realistically sustain
+     full time development, no matter how generous their software users are.
+    </p>
+    <p></p>
+    <p>Also, unless you are <a href="http://winhelp2002.mvps.org/hosts.htm">blocking them</a> (hint, hint),
+      you'll notice that there are ads on this page, which I consider sufficient revenue enough.</p>
+    <p>Finally the fact that I have the freedom to develop <a href="http://en.wikipedia.org/wiki/Free_software">Free Software </a>
+       in my spare time should indicate that I'm well-off enough, and therefore that you should direct your generosity towards
+      people who need it a lot more than I do. If you really insist, you can always make a donation to the
+      <a href="http://www.fsf.org/">Free Software Foundation</a>, as they are the main reason software like Rufus is possible.</p>
+      <p></p>
+      <p>At any rate, I'll take this opportunity to say <span id="thankyou">thank you</span> for your continuing support and enthusiasm about this little program: it is much appreciated!</p>
+      <p></p>
+      <p>But please continue to feel free to use Rufus without any guilt about not contributing for it financially – you should never have to!</p>
+      <p></p>
+      <h2>(1) Speed comparison between Rufus and other applications</h2>
+      <p></p>
+      <p>The following tests were carried out on a Windows 7 x64 Core 2 duo/4 GB RAM platform,
+        with an USB 3.0 controller and a <a href="http://www.adata-group.com/index.php?action=product_feature&cid=1&piid=145&lan=en">16 GB USB 3.0 ADATA S102 flash drive</a>.</p>
+        <p></p>
+      <ul>
+        <p></p>
+        <li>
+          Windows 7 x64	: 	en_windows_7_ultimate_with_sp1_x64_dvd_618240.iso
+          <p></p>
+          <table border="1">
+            <tr>
+              <td>Windows 7 USB/DVD Download Tool v1.0.30</td>
+              <td>00:08:10</td>
+            </tr>
+            <tr>
+              <td>Universal USB Installer v1.8.7.5</td>
+              <td>	00:07:10</td>
+            </tr>
+            <tr>
+              <td>UNetbootin v1.1.1.1</td>
+              <td>00:06:20</td>
+            </tr>
+            <tr>
+              <td>RMPrepUSB v2.1.638</td>
+              <td>	00:04:10</td>
+            </tr>
+            <tr>
+              <td>WiNToBootic v1.2</td>
+              <td>	00:03:35</td>
+            </tr>
+            <tr>
+              <td><strong>Rufus v1.1.1</strong></td>
+              <td><strong>00:03:25</strong></td>
+            </tr>
+          </table>
+        </li>
+        <p></p>
+        <li>Ubuntu 11.10 x86	: 	ubuntu-11.10-desktop-i386.iso
+          <p></p>
+          <table border="1">
+            <tr>
+              <td>UNetbootin v1.1.1.1</td>
+              <td>00:01:45</td>
+            </tr>
+            <tr>
+              <td>RMPrepUSB v2.1.638</td>
+              <td>00:01:35</td>
+            </tr>
+            <tr>
+              <td>Universal USB Installer v1.8.7.5</td>
+              <td>00:01:20</td>
+            </tr>
+            <tr>
+              <td><strong>Rufus v1.1.1</strong></td>
+              <td><strong>00:01:15</strong></td>
+            </tr>
+          </table>
+        </li>
+        <p></p>
+        <li>	Slackware 13.37 x86	: 	slackware-13.37-install-dvd.iso
+          <p></p>
+          <table border="1">
+            <tr>
+              <td>UNetbootin v1.1.1.1</td>
+              <td>01:00:00+</td>
+            </tr>
+            <tr>
+              <td>Universal USB Installer v1.8.7.5</td>
+              <td>00:24:35</td>
+            </tr>
+            <tr>
+              <td>RMPrepUSB v2.1.638</td>
+              <td>00:22:45</td>
+            </tr>
+            <tr>
+              <td><strong>Rufus v1.1.1</strong></td>
+              <td><strong>00:20:15</strong></td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+      <p></p>
+      <h2>(2) Non exhaustive list of ISOs Rufus is known to work with</h2>
+      <p></p>
+      <p>
+Arch Linux	, 	Archbang	, 	BartPE/pebuilder	, 	CentOS	, 	Damn Small Linux	, 	Debian	, 	Fedora	, 	FreeDOS	,
+FreeNAS	, 	Gentoo	, 	GParted	, 	gNewSense	, 	Hiren's Boot CD	, 	LiveXP	, 	Knoppix	, 	KolibriOS	, 	Kubuntu	,
+Linux Mint	, 	NT Password Registry Editor	, 	Parted Magic	, 	Partition Wizard	, 	Raspbian	,
+ReactOS	, 	Red Hat	, 	rEFInd	, 	Slackware	, 	Super Grub2 Disk	, 	Tails	, 	Trinity Rescue Kit	, 	Ubuntu	,
+Ultimate Boot CD	, 	Windows XP (SP2+)	, 	Windows Vista	, 	Windows Server 2008	, 	Windows 7	,
+Windows 8	, 	Windows 8.1	, 	Windows Server 2012	, 	Windows 10	, 	Windows Server 2016	, 	…
+</p>
+
+
+  </body>
+</html>

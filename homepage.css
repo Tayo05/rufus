@@ -1,0 +1,70 @@
+body{
+  background-color: #3f4555;
+  color: #ffff
+}
+
+.select{
+  text-align: right;
+}
+
+span{
+  font-size: 50px;
+  font-family: 'Georama', sans-serif;
+}
+
+a{
+  color: #d1b8b8;
+}
+
+h3{
+  font-size: 40px;
+  font-style: italic;
+  font-size: 35px;
+}
+
+p{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+ul{
+  font-size: 20px
+}
+
+.download{
+  font-size: 50px;
+  border: 5px solid #d1b8b8;
+  color: #d1b8b8;
+}
+
+h2{
+  border: 2px solid #d1b8b8;
+  font-size: 35px;
+  height: 50px;
+  width: 950px;
+  color: #d1b8b8;
+  padding: 10px 90px 5px 10px;
+}
+
+#thankyou{
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+code{
+  background-color: black;
+  border: 10px solid black;
+  width: 10px;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 1em 0px;
+  white-space: pre;
+}
+
+table{
+  background-color: white;
+  color: black;
+  border: 1px solid #c3c3c3;
+  vertical-align: top;
+}
